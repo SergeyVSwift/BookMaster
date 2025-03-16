@@ -6,17 +6,27 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7048F21D2D8724BE00F9616B /* BookMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F21A2D8724BE00F9616B /* BookMasterApp.swift */; };
+		7048F21E2D8724BE00F9616B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F21B2D8724BE00F9616B /* ContentView.swift */; };
+		7048F21F2D8724BE00F9616B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7048F2162D8724BE00F9616B /* Assets.xcassets */; };
+		7048F2202D8724BE00F9616B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7048F2172D8724BE00F9616B /* Preview Assets.xcassets */; };
+		7048F2222D87254900F9616B /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F2212D87254900F9616B /* Date+Ext.swift */; };
+		7048F2242D872B8200F9616B /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F2232D872B8200F9616B /* View+Ext.swift */; };
+		7048F2262D872C8400F9616B /* OffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F2252D872C8400F9616B /* OffsetKey.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		7048F1F92D8603EB00F9616B /* BookMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7048F2162D8724BE00F9616B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7048F2172D8724BE00F9616B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7048F2192D8724BE00F9616B /* BookMaster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BookMaster.entitlements; sourceTree = "<group>"; };
+		7048F21A2D8724BE00F9616B /* BookMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMasterApp.swift; sourceTree = "<group>"; };
+		7048F21B2D8724BE00F9616B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7048F2212D87254900F9616B /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		7048F2232D872B8200F9616B /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		7048F2252D872C8400F9616B /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7048F1FB2D8603EB00F9616B /* BookMaster */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = BookMaster;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7048F1F62D8603EB00F9616B /* Frameworks */ = {
@@ -32,7 +42,7 @@
 		7048F1F02D8603EB00F9616B = {
 			isa = PBXGroup;
 			children = (
-				7048F1FB2D8603EB00F9616B /* BookMaster */,
+				7048F21C2D8724BE00F9616B /* BookMaster */,
 				7048F1FA2D8603EB00F9616B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +53,29 @@
 				7048F1F92D8603EB00F9616B /* BookMaster.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		7048F2182D8724BE00F9616B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7048F2192D8724BE00F9616B /* BookMaster.entitlements */,
+				7048F2162D8724BE00F9616B /* Assets.xcassets */,
+				7048F2172D8724BE00F9616B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7048F21C2D8724BE00F9616B /* BookMaster */ = {
+			isa = PBXGroup;
+			children = (
+				7048F21B2D8724BE00F9616B /* ContentView.swift */,
+				7048F2212D87254900F9616B /* Date+Ext.swift */,
+				7048F2232D872B8200F9616B /* View+Ext.swift */,
+				7048F2252D872C8400F9616B /* OffsetKey.swift */,
+				7048F21A2D8724BE00F9616B /* BookMasterApp.swift */,
+				7048F2182D8724BE00F9616B /* Preview Content */,
+			);
+			path = BookMaster;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +92,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				7048F1FB2D8603EB00F9616B /* BookMaster */,
 			);
 			name = BookMaster;
 			packageProductDependencies = (
@@ -109,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7048F21F2D8724BE00F9616B /* Assets.xcassets in Resources */,
+				7048F2202D8724BE00F9616B /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7048F2242D872B8200F9616B /* View+Ext.swift in Sources */,
+				7048F2262D872C8400F9616B /* OffsetKey.swift in Sources */,
+				7048F2222D87254900F9616B /* Date+Ext.swift in Sources */,
+				7048F21D2D8724BE00F9616B /* BookMasterApp.swift in Sources */,
+				7048F21E2D8724BE00F9616B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,7 +281,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = BookMaster/BookMaster.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "BookMaster/Preview Content/BookMaster.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BookMaster/Preview Content\"";
@@ -283,7 +320,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = BookMaster/BookMaster.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "BookMaster/Preview Content/BookMaster.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BookMaster/Preview Content\"";
