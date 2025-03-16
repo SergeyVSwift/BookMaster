@@ -12,6 +12,10 @@ struct BookMasterApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .preferredColorScheme(.light)
         }
     }
 }
+
+
+let currentUserID: UUID = .init()

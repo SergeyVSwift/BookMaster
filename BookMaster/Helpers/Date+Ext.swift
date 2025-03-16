@@ -33,6 +33,7 @@ extension Date {
         let startOfDate = calendar.startOfDay(for: date)
         var week: [WeekDay] = []
         let weekForDate = calendar.dateInterval(of: .weekOfMonth, for: startOfDate)
+
         
         guard let startOfWeek = weekForDate?.start else { return week }
         

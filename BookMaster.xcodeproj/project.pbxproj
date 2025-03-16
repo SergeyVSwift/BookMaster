@@ -14,6 +14,9 @@
 		7048F2222D87254900F9616B /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F2212D87254900F9616B /* Date+Ext.swift */; };
 		7048F2242D872B8200F9616B /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F2232D872B8200F9616B /* View+Ext.swift */; };
 		7048F2262D872C8400F9616B /* OffsetKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F2252D872C8400F9616B /* OffsetKey.swift */; };
+		7048F22A2D8733B800F9616B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F2292D8733B800F9616B /* HomeView.swift */; };
+		7048F22C2D877AAD00F9616B /* Timeslot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F22B2D877AAD00F9616B /* Timeslot.swift */; };
+		7048F2312D87819D00F9616B /* TimeslotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F2302D87819D00F9616B /* TimeslotCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		7048F2212D87254900F9616B /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		7048F2232D872B8200F9616B /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		7048F2252D872C8400F9616B /* OffsetKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetKey.swift; sourceTree = "<group>"; };
+		7048F2292D8733B800F9616B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7048F22B2D877AAD00F9616B /* Timeslot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeslot.swift; sourceTree = "<group>"; };
+		7048F2302D87819D00F9616B /* TimeslotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeslotCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		7048F2182D8724BE00F9616B /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				7048F21A2D8724BE00F9616B /* BookMasterApp.swift */,
 				7048F2192D8724BE00F9616B /* BookMaster.entitlements */,
 				7048F2162D8724BE00F9616B /* Assets.xcassets */,
 				7048F2172D8724BE00F9616B /* Preview Assets.xcassets */,
@@ -68,14 +75,40 @@
 		7048F21C2D8724BE00F9616B /* BookMaster */ = {
 			isa = PBXGroup;
 			children = (
-				7048F21B2D8724BE00F9616B /* ContentView.swift */,
-				7048F2212D87254900F9616B /* Date+Ext.swift */,
-				7048F2232D872B8200F9616B /* View+Ext.swift */,
-				7048F2252D872C8400F9616B /* OffsetKey.swift */,
-				7048F21A2D8724BE00F9616B /* BookMasterApp.swift */,
+				7048F2282D8730CB00F9616B /* View */,
+				7048F2272D8730BF00F9616B /* Helpers */,
+				7048F22D2D877AB600F9616B /* Identifible */,
 				7048F2182D8724BE00F9616B /* Preview Content */,
 			);
 			path = BookMaster;
+			sourceTree = "<group>";
+		};
+		7048F2272D8730BF00F9616B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7048F2232D872B8200F9616B /* View+Ext.swift */,
+				7048F2252D872C8400F9616B /* OffsetKey.swift */,
+				7048F2212D87254900F9616B /* Date+Ext.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7048F2282D8730CB00F9616B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7048F21B2D8724BE00F9616B /* ContentView.swift */,
+				7048F2292D8733B800F9616B /* HomeView.swift */,
+				7048F2302D87819D00F9616B /* TimeslotCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7048F22D2D877AB600F9616B /* Identifible */ = {
+			isa = PBXGroup;
+			children = (
+				7048F22B2D877AAD00F9616B /* Timeslot.swift */,
+			);
+			path = Identifible;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +186,11 @@
 			files = (
 				7048F2242D872B8200F9616B /* View+Ext.swift in Sources */,
 				7048F2262D872C8400F9616B /* OffsetKey.swift in Sources */,
+				7048F22C2D877AAD00F9616B /* Timeslot.swift in Sources */,
 				7048F2222D87254900F9616B /* Date+Ext.swift in Sources */,
+				7048F22A2D8733B800F9616B /* HomeView.swift in Sources */,
 				7048F21D2D8724BE00F9616B /* BookMasterApp.swift in Sources */,
+				7048F2312D87819D00F9616B /* TimeslotCell.swift in Sources */,
 				7048F21E2D8724BE00F9616B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
