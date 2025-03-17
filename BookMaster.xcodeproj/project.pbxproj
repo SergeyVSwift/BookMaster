@@ -17,6 +17,8 @@
 		7048F22A2D8733B800F9616B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F2292D8733B800F9616B /* HomeView.swift */; };
 		7048F22C2D877AAD00F9616B /* Timeslot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F22B2D877AAD00F9616B /* Timeslot.swift */; };
 		7048F2312D87819D00F9616B /* TimeslotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F2302D87819D00F9616B /* TimeslotCell.swift */; };
+		7048F2342D88C73E00F9616B /* LeafTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F2332D88C73E00F9616B /* LeafTextField.swift */; };
+		7048F2362D88D03800F9616B /* LeafButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7048F2352D88D03800F9616B /* LeafButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		7048F2292D8733B800F9616B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		7048F22B2D877AAD00F9616B /* Timeslot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeslot.swift; sourceTree = "<group>"; };
 		7048F2302D87819D00F9616B /* TimeslotCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeslotCell.swift; sourceTree = "<group>"; };
+		7048F2332D88C73E00F9616B /* LeafTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafTextField.swift; sourceTree = "<group>"; };
+		7048F2352D88D03800F9616B /* LeafButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,9 +100,9 @@
 		7048F2282D8730CB00F9616B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7048F2322D88C72400F9616B /* Components */,
 				7048F21B2D8724BE00F9616B /* ContentView.swift */,
 				7048F2292D8733B800F9616B /* HomeView.swift */,
-				7048F2302D87819D00F9616B /* TimeslotCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -109,6 +113,16 @@
 				7048F22B2D877AAD00F9616B /* Timeslot.swift */,
 			);
 			path = Identifible;
+			sourceTree = "<group>";
+		};
+		7048F2322D88C72400F9616B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7048F2302D87819D00F9616B /* TimeslotCell.swift */,
+				7048F2332D88C73E00F9616B /* LeafTextField.swift */,
+				7048F2352D88D03800F9616B /* LeafButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +199,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7048F2242D872B8200F9616B /* View+Ext.swift in Sources */,
+				7048F2362D88D03800F9616B /* LeafButton.swift in Sources */,
 				7048F2262D872C8400F9616B /* OffsetKey.swift in Sources */,
 				7048F22C2D877AAD00F9616B /* Timeslot.swift in Sources */,
 				7048F2222D87254900F9616B /* Date+Ext.swift in Sources */,
+				7048F2342D88C73E00F9616B /* LeafTextField.swift in Sources */,
 				7048F22A2D8733B800F9616B /* HomeView.swift in Sources */,
 				7048F21D2D8724BE00F9616B /* BookMasterApp.swift in Sources */,
 				7048F2312D87819D00F9616B /* TimeslotCell.swift in Sources */,
